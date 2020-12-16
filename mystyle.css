@@ -1,0 +1,184 @@
+
+html{
+	scroll-behavior: smooth;
+}
+h1{
+	text-align: center;
+}
+.fixed-top {
+	top: 0px;
+    left: 800px;
+    font-size: 20px;
+
+}
+.nav-link a{
+	background-color: black;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-radius: 12px;
+}
+.trans{
+	background-image: url(img/blac.jpg);
+    position: fixed;
+    background: transparent;
+}
+#section1{
+	height: 700px;
+	background:white;
+	display: inline-block;
+	width: 100%;
+	font-family: cursive;
+}
+#section1 h1{
+   color:white;
+   font-family:cursive;
+   text-align: center;
+   padding-top:150px;
+   padding-bottom:500px;
+
+}
+#section2 h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 115px;
+}
+#section2{
+	height: 700px;
+	background:gray;
+	display: inline-block;
+	width: 100%;
+}
+#boxes{
+       margin-top: 20px;
+}
+#boxes .box{
+	float:left;
+	width:100%;
+	text-align: center;
+}
+#boxes .box img{
+	width: 90px;
+}
+
+
+#section3{
+	height: 700px;
+	background: gray;
+	display: inline-block;
+	width: 100%;
+}
+#section3 h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-right:56px;
+}
+#section3 p{
+	text-align: center;
+}
+
+#section4{
+	height: 700px;
+	background:gray;
+	display: inline-block;
+	width: 100%;
+}
+#section4 h1{
+	padding-top: 50px;
+	padding-right: 87px;
+}
+#section4 p{
+	text-align: center;
+}
+
+#section5{
+	height: 650px;
+	display: inline-block;
+	width: 100%;
+	background-color:gray;
+}
+#section5 h1{
+	color: white;
+}
+#section5 p{
+	color: white;
+	text-align: center;
+}
+
+.gallery img{
+	width: 300px;
+}
+.gallery{
+	margin-left: 100px;
+	padding: 100px;
+	padding-bottom: 200px;
+}
+.gallery img{
+	transition:1s;
+	padding: 15px;
+	width:300px;
+}
+.gallery img:hover{
+	filter:grayscale(100%);
+	transform: scale(1.1);
+}
+
+#boxes .container .box  img{
+	width: 200px;
+	border: 2px solid  black;
+	border-radius: 50%;
+}
+#boxes .box{
+	float:left;
+	width:30%;
+	text-align: center;
+	padding:50px; 
+}
+#boxes .container .box .twt img{
+	border: none;
+	width: 50px;
+}
+.copyright{
+	text-align: center;
+}
+.bg{
+	background-repeat:height;
+}
+.my-form{
+	padding: 20px;
+}
+.myform .form-group{
+	padding-bottom: 15px;
+}
+.my-form input[type="text"]{
+	padding:10px;
+	width: 40%;
+	float: left;
+
+
+}
+.my-form textarea{
+	position: absolute;
+	top: 2900px;
+	right: 100px;
+	width: 40%;
+	height:100px;
+	padding-bottom: 200px;
+
+}
+.updates h3{
+	color: white;
+	text-align: center;
+}
+.updates img{
+	border: none;
+	width: 60px;
+	text-align: center;
+	border-radius: 50%;
+}
+#main-footer{
+	background-color: #000000;
+}
+#main-footer p{
+ text-align: center;
+ color: white;
+}
